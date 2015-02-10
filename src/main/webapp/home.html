@@ -26,17 +26,42 @@
 		</div>
 		<fieldset data-role="controlgroup" data-type="horizontal" style="text-align:center;">
 			<input type="radio" name="radio-choice-b" id="radio-choice-c" value="list" checked="checked">
-        	<label for="radio-choice-c" style="width:100px;text-align:center;">List</label>
+        	<label for="radio-choice-c" style="width:100px;text-align:center;">门到门</label>
 	        <input type="radio" name="radio-choice-b" id="radio-choice-d" value="grid">
-	        <label for="radio-choice-d" style="width:100px;text-align:center;">Grid</label>
+	        <label for="radio-choice-d" style="width:100px;text-align:center;">零担专线</label>
 		</fieldset>
-		
-		
-		
 	</div>
 	<div data-role="content">
-		
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px;text-align:center;line-height:60px;background-color:#F9F9F9;border:none;">
+				<select name="select-choice-mini" id="select-choice-mini" data-native-menu="false" data-inline="true">
+					<option value="standard">北京</option>
+					<option value="rush">上海</option>
+					<option value="express">广东</option>
+					<option value="overnight">天津</option>
+				</select>
+			</div></div>
+			<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px;text-align:center;line-height:60px;background-color:#F9F9F9;border:none;">--></div></div>
+			<div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px;text-align:center;line-height:60px;background-color:#F9F9F9;border:none;">
+				<select name="select-choice-mini" id="select-choice-mini" data-inline="true">
+					<option value="standard">北京</option>
+					<option value="rush">上海</option>
+					<option value="express">广东</option>
+					<option value="overnight">天津</option>
+				</select>
+			</div></div>
+		</div>
+		<button>搜索</button>
 	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#" data-icon="grid" class="ui-btn-active">长途运输</a></li>
+				<li><a href="#" data-icon="star">市内配送</a></li>
+				<li><a href="#" data-icon="gear">我的运宝</a></li>
+			</ul>
+		</div>
+</div>
 </div>
 
 
