@@ -8,11 +8,10 @@
 	<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
 	
 	<style type="text/css">
-		div.ui-controlgroup-controls {
+		/* div.ui-controlgroup-controls {
 			width:526px;
-		}
+		} */
 	</style>
-	
 	<title>运宝</title>
 </head>
 <body>
@@ -21,17 +20,39 @@
 	<div data-role="header">
 		<a href="#" data-icon="arrow-l" data-iconpos="notext">返回</a>
 		<h1>运宝</h1>
-		<div data-role="navbar" style="height:200px;">
-			<img style="height:100%;width:100%;" alt="" src="css/images/header.png"/>
+		<div data-role="navbar" style="">
+			<img style="width:100%;" alt="" src="css/images/header.png"/>
 		</div>
-		<fieldset data-role="controlgroup" data-type="horizontal" style="text-align:center;">
-			<input type="radio" name="radio-choice-b" id="radio-choice-c" value="list" checked="checked">
-        	<label for="radio-choice-c" style="width:100px;text-align:center;">门到门</label>
-	        <input type="radio" name="radio-choice-b" id="radio-choice-d" value="grid">
-	        <label for="radio-choice-d" style="width:100px;text-align:center;">零担专线</label>
-		</fieldset>
+		<div style="">
+			<!-- <fieldset data-role="controlgroup" data-type="horizontal" style=" ">
+				<input type="radio" name="radio-choice-b" id="radio-choice-c" value="list" checked="checked">
+	        	<label for="radio-choice-c" style="width:100px;text-align:center;">门到门</label>
+		        <input type="radio" name="radio-choice-b" id="radio-choice-d" value="grid">
+		        <label for="radio-choice-d" style="width:100px;text-align:center;">零担专线</label>
+			</fieldset> -->
+					<!-- <div data-role="controlgroup" data-type="horizontal" style="width: 60%;">
+						    <input type="radio" name="radio-choice-h-2" id="radio-choice-h-2a" value="on" checked="checked">
+							<label for="radio-choice-h-2a" style="width: 50%;">One</label>
+							<input type="radio" name="radio-choice-h-2" id="radio-choice-h-2b" value="off">
+							<label for="radio-choice-h-2b" style="width: 50%;">Two</label>
+					</div> -->
+					
+					<div data-role="navbar" style="width: 50%; margin: 0 auto; border-radius: 5px; border: 1px solid #ddd; overflow: hidden;">
+						<ul>
+							<li style=""><a href="#" class="ui-btn-active">One</a></li>
+							<li><a href="#">Two</a></li>
+						</ul>
+					</div><!-- /navbar -->
+			</div>
 	</div>
 	<div data-role="content">
+	
+	<div data-role="navbar" style="width: 50%; margin: 0 auto; border-radius: 5px; border: 1px solid #ddd; overflow: hidden;">
+						<ul>
+							<li style=""><a href="#" class="ui-btn-active">One</a></li>
+							<li><a href="#">Two</a></li>
+						</ul>
+					</div>
 		<div class="ui-grid-b">
 			<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px;text-align:center;line-height:60px;background-color:#F9F9F9;border:none;">
 				<select name="select-choice-mini" id="select-choice-mini" data-native-menu="false" data-inline="true">
